@@ -144,3 +144,29 @@ b{
         width: 400px;
     }
 }
+
+
+
+.pic{
+    height: 400px;
+    width: 60%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: ;
+}
+.btn{
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(181, 222, 99);
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+}

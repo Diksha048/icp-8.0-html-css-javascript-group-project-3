@@ -1,0 +1,149 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.nav-logo a {
+    display: flex;
+    align-items: center;
+    color: #fffffe;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-logo img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.nav-logo a:hover {
+    color: #ff6347;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.nav-item {
+    margin-left: 20px;
+    position: relative;
+}
+
+.nav-item a {
+    color: #fffffe;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.nav-item a:hover {
+    color: #ff6347;
+    background-color: #0f0e17;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.dropdown-content a {
+    color: #fffffe;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #0f0e17;
+    color: #ff6347;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown-content a:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.dropdown-content a:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dropdown-items {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.dropdown-items span {
+    background-color: #fffffe;
+    border-radius: 2px;
+    display: block;
+    height: 3px;
+    margin: 5px 0;
+    width: 25px;
+    transition: all 0.3s;
+}
+
+.headline-1 {
+    font-size: 65px;
+    font-weight: bolder;
+    color: #ff8906;
+    text-align: center;
+    position: relative;
+    top: -635px;
+}
+
+.headline-2 {
+    font-size: 65px;
+    font-weight: bolder;
+    color: #fffffe;
+    text-align: center;
+    position: relative;
+    top: -700px;
+}
+
+.headline-3 {
+    font-size: 30px;
+    color: #fffffe;
+    text-align: center;
+    position: relative;
+    top: -400px;
+}
+
+.explore-field {
+    font: 50px bold;
+    color: #fffffe;
+    text-align: center;
+    position: relativ;
+    top: -200px;
+}

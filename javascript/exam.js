@@ -40,6 +40,7 @@ const exams = [
 const searchExams = () => 
     {
   const searchTerm = searchInput.value.toLowerCase().trim();
+  if (searchTerm === '') return; 
   searchResults.innerHTML = '';
   const results = exams.filter(exam => exam.name.toLowerCase().includes(searchTerm));
   if (results.length > 0) 
@@ -59,6 +60,7 @@ const searchExams = () =>
     searchResults.appendChild(noResultsDiv);
   }
   searchInput.value = '';
+  window.location.hash = '#ias-sc-anchor';
 };
 
 searchBtn.addEventListener('click', searchExams);
@@ -69,5 +71,38 @@ searchInput.addEventListener('keydown', (event) =>
      {
     searchExams();
   }
+}
+);
+document.addEventListener('click', (event) => {
+  if (event.target !== searchInput && event.target !== searchBtn) {
+    searchResults.innerHTML = '';
+  }
+});
+document.addEventListener('scroll', () => {
+  searchResults.innerHTML = '';
+});
+searchBtn.addEventListener('click', () => {
+  searchExams();
+  const infoPage = document.getElementById('info-page');
+  infoPage.scrollIntoView({ behavior: 'smooth' });
+});
+/* Theme change */
+const themeIcon = document.getElementById('theme-icon');
+const body = document.body;
+
+themeIcon.addEventListener('click', () =>
+   {
+    if (body.classList.contains('dark-theme'))
+       {
+        body.classList.remove('dark-theme');
+        body.classList.add('light-theme');
+        themeIcon.src = './../../images/arts-page-image/moon.png';
+    } 
+    else
+     {
+        body.classList.remove('light-theme');
+        body.classList.add('dark-theme');
+        themeIcon.src = './../../images/arts-page-image/sun.png';
+    }
 }
 );

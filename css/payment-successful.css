@@ -2,7 +2,7 @@
 
 body {
     font-family: poppins;
-    background-color: #0f0e17;
+    background-color: #def2f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,6 +34,6 @@ body {
     display: inline-block;
 }
 .container .buttons .homepage {
-    background: #0f0e17;
+    background: #2B7A78;
     color: #fffffe;
 }

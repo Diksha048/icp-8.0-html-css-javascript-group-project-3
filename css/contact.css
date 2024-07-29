@@ -1,39 +1,146 @@
-body{
+body {
+    @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+
     background-color: #0f0e17;
     padding: 0;
     margin: 0;
+    background-color: #def2f1;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+
 }
- .up-body{
-    position: relative;
+
+.up-body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
 
-} 
+}
 
-.heading{
+.heading {
     text-align: center;
     font-size: 50px;
     margin-top: 110px;
-    color: white;
+    color: #2b7a78;
 }
-.form-fill{
-   
-display: flex;
-flex-direction: column;
-align-items: center;
 
-    border: 1px solid black;
+.form-fill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 300px;
+    height: 350px;
     padding: 10px;
-    box-shadow: 10px 10px 10px 0px black;
-    background-color: aliceblue;
-    border-radius: 25% 0 25% 0;
+   
 }
-.btn{
-    width: 90px;
+label{
+    color: white;
+    
+}
+.input{
+    width: 100%;
+    color: #000000;
+    border-radius: 25px;
+    border: 2px solid #d8d8d8;
+    background-color: transparent;
+padding: 10px;
+font-size: 20px;
+}
+::placeholder{
+    color: black;
+    margin-left: 0px;
+    
+}
+textarea{
+    width: 100%;
+    border: 2px solid #d8d8d8;
+    color: #000000;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+
+}
+.btn {
+    height: 60px;
+    width: 100%;
     margin: 20px;
     padding: 5px;
     cursor: pointer;
+    background-color: #51d4ce;
+    border-radius: 20px;
+    border: none;
+    color: #fffffe;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: #2b7a78;
+    transition: 0.5s;
+}
+
+.location {
+    background-color: aqua;
+    width: 30%;
+}
+
+.map {
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 350px;
+}
+
+.title1 {
+    
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;
+}
+b{
+    background-color: #c7c0ff;
+    padding: 10px;
+    width: 80px;
+    
+}
+
+/* Small Devices */
+@media screen and (max-width: 600px) {
+    .form-fill {
+        width: 450px ;
+        padding: 0px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .map {
+        width: 450px ;
+        padding: 0px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .title1 {
+        height: 200px;
+        width: 450px ;
+        padding: 0px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;   
+     }
+     .input{
+        width: 400px;
+     }
+    textarea{
+        width: 400px;
+    }
+    .btn{
+        width: 400px;
+    }
 }

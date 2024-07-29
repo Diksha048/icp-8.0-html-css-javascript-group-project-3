@@ -7,13 +7,13 @@
     <title>Career Crossroads</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
-<body>\
+<body>
 
     <!--navbar-->
     <nav class="navbar">
         <div class="nav-logo">
-            <a href="../index.html">
-                <img src="../images/index-page-images/brand-logo.png">
+            <a href="index.html">
+                <img src="../images/index-page-images/brand-logo.png" alt="brand logo">
                 Career Crossroads
             </a>
         </div>
@@ -23,14 +23,15 @@
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Streams</a>
                 <div class="dropdown-content">
-                    <a href="./science_pages/science_main.html">Science</a>
-                    <a href="../pages/commerce.html">Commerce</a>
-                    <a href="../pages/arts_pages/arts_main.html">Arts</a>
+                    <a href="../pages/science_pages/science_main.html">Science</a>
+                    <a href="./commerce_pages/commerce.html">Commerce</a>
+                    <a href="./arts_pages/arts_main.html">Arts</a>
                 </div>
             </li>
 
-            <li class="nav-item"><a href="./pages/contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="./pages/login.html">Login</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact Us</a></li>
+            <li class="nav-item"><a href="#">Login</a></li>
+            <li><img class="theme-changer" id="theme-icon" src="../images/arts-page-image/moon.png" alt="moon-icon"></li>
         </ul>
 
         <div class="dropdown-items" id="dropdown-items">
@@ -38,7 +39,8 @@
             <span></span>
             <span></span>
         </div>
-    </nav>
+        </nav>
+<br>
     <!--login form -->
     <BR>
     <div class="form-wrapper">
@@ -47,21 +49,17 @@
             <div class="field email">
                 <div class="input-area">
                     <input type="text" placeholder="Email Address">
-                    <i class="icon fas fa-envelope"></i>
-                    <i class="error error-icon fas fa-exclamation-circle"></i>
                 </div>
-                <div class="error error-txt">Email can't be blank</div>
+                <div class="error error-txt">Email can't be blank <i class="icon fas fa-envelope"></i> </div>
             </div>
             <div class="field password">
                 <div class="input-area">
                     <input type="password" placeholder="Password">
-                    <i class="icon fas fa-lock"></i>
-                    <i class="error error-icon fas fa-exclamation-circle"></i>
                 </div>
-                <div class="error error-txt">Password can't be blank</div>
+                <div class="error error-txt">Password can't be blank&nbsp;<i class="icon fas fa-lock"></i></div>
             </div>
             <div class="pass-txt"><a href="#">Forgot password?</a></div>
-            <input type="submit" value="Login">
+            <input class="btn" type="submit" value="Login">
         </form>
         <div class="form-wrapper__divider">Or Sign Up Using</div>
         <ul class="social-icons">

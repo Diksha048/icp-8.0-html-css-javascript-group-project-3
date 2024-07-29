@@ -5,44 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arts</title>
     <link rel="stylesheet" href="./../../css/art-main.css">
-    <link rel="stylesheet" href="./../../css/index.css">
+    <link rel="stylesheet" href="./../../css/footer.css">
 </head>
 <body>
+    <!--navbar-->
     <nav class="navbar">
         <div class="nav-logo">
             <a href="index.html">
-                <img src="./../../images/index-page-images/brand-logo.png" alt="brand logo">
+                <img src="../../images/index-page-images/brand-logo.png" alt="brand logo">
                 Career Crossroads
             </a>
         </div>
 
-        <ul class="nav-menu">
-            <li class="nav-item"><a href="index.html">Home</a></li>
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item"><a href="../../index.html">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Streams</a>
                 <div class="dropdown-content">
-                    <a href="science.html">Science</a>
-                    <a href="commerce.html">Commerce</a>
-                    <a href="arts.html">Arts</a>
+                    <a href="../science_pages/science_main.html">Science</a>
+                    <a href="./../commerce.html">Commerce</a>
+                    <a href="./arts_main.html">Arts</a>
                 </div>
             </li>
-            <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="login.html">Login</a></li>
+
+            <li class="nav-item"><a href="../contact.html">Contact Us</a></li>
+            <li class="nav-item"><a href="../login.html">Login</a></li>
+            <li><img class="theme-changer" id="theme-icon" src="../../images/arts-page-image/moon.png" alt="moon-icon"></li>
         </ul>
 
-        <div class="hamburger-menu">
+        <div class="dropdown-items" id="dropdown-items">
             <span></span>
             <span></span>
             <span></span>
         </div>
-    </nav>
+        </nav>
+<br>
+    <BR>
    <section class="header">
 <div class="header-container">
     <h1 class="h1">Art Stream</h1>
     <p class="para">"Art is the only way to run away without leaving home."</p>
     <blockquote>
         <p class="headingbq">"The purpose of art is washing the dust of daily life off our souls."</p>
-         <cite>— Pablo Picasso</cite>
+         <cite class="writer" class="light-writer">— Pablo Picasso</cite>
     </blockquote>
     <p class="sub-para">Explore the world of art, where creativity meets inspiration.</p>
 </div>
@@ -50,7 +55,7 @@
     <div class="container">
 <div class="sub-container"> 
 
-    <p class="heading">What is Arts Stream?</p>
+    <p class="heading" class="light-h1">What is Arts Stream?</p>
     <p class="sub-content">
     When a student chooses arts as a stream, it is thought that the options available are lower than those who take up science or commerce. Breaking this myth, arts career options have increased over time, and hence today, many individuals are making their names in prominent arts stream jobs.
     <br/>
@@ -59,90 +64,159 @@
 </p>
 </div>
 <div class="sub-container">
-    <img src="./../../images/art.jpg" alt="art-img" class="content-img">
+    <img src="./../../images/arts-page-image/art.jpg" alt="art-img" class="content-img">
 </div>
     </div>
     <h1 class="sub-h1">Art Stream Subjects</h1>
-    <div class="card-container">
-        <div class="card">
+    <div class="card-container" >
+        <div class="card" class="light-card">
             <a  class="sub-link" href="https://en.wikipedia.org/wiki/English_literature"><p class="a-text">English</p></a> 
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80_%E0%A4%B8%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%AF"><p class="a-text">Hindi (regional-language)</p></a>  
+            <a  class="sub-link"  href="https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80_%E0%A4%B8%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%AF"><p class="a-text">Hindi</p></a>  
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Visual_arts"> <p>Visual Arts</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Visual_arts"> <p class="a-text">Visual Arts</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Visual_arts"> <p>Geography</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Visual_arts"> <p class="a-text">Geography</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Economics_of_the_arts_and_literature"> <p> Economics</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Economics_of_the_arts_and_literature"> <p class="a-text"> Economics</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Commercial_art"> <p>Commercial Art</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Commercial_art"> <p class="a-text">Commercial Art</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Fine_art"><p>Fine Arts</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Fine_art"><p class="a-text">Fine Arts</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Graphics"> <p>Graphics</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Graphics"> <p class="a-text">Graphics</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href=" https://en.wikipedia.org/wiki/Sculpture"><p>Sculpture</p></a>
+            <a  class="sub-link" href=" https://en.wikipedia.org/wiki/Sculpture"><p class="a-text">Sculpture</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/English_literature"> <p>Applied Art</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/English_literature"> <p class="a-text">Applied Art</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/History"> <p>History</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/History"> <p class="a-text">History</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/%5BMusicology"><p>Music</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/%5BMusicology"><p class="a-text">Music</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Political_science"> <p>Political Science</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Political_science"> <p class="a-text">Political Science</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Psychology"> <p>Psychology</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Psychology"> <p class="a-text">Psychology</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Philosophy"> <p>Philosophy</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Philosophy"> <p class="a-text">Philosophy</p></a>
         </div>
         <div class="card">
-            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Dance_studies"><p>Dance</p></a>
+            <a  class="sub-link" href="https://en.wikipedia.org/wiki/Dance_studies"><p class="a-text">Dance</p></a>
         </div>
     </div>
     <h1 class="career-h1">Explore Your Career Options</h1>
     <div class="career-container">
      <p>Discover your passion and explore various career paths that align with your interests.</p>
     <div class="career-card">
-     <h2>Pursue Pure Arts</h2>
-     <p>Are you passionate about arts and want to delve deeper into the creative world?</p>
+     <h2 class="h2">Pursue Pure Arts</h2>
+     <p class="career-p">Are you passionate about arts and want to delve deeper into the creative world?</p>
     <div class="career-card-content">
-     <span>Graphics Design</span>
-     <span>Fashion Design</span>
-     <span> Interior Design</span>
-     <span>Animation and Visual Effects</span>
-     <span> Fine Arts (Painting, Sculpture, Printmaking, etc.)</span>
+     <span class="points">Graphics Design</span>
+     <span class="points">Fashion Design</span>
+     <span class="points"> Interior Design</span>
+     <span class="points">Animation and Visual Effects</span>
+     <span class="points"> Fine Arts (Painting, Sculpture, Printmaking, etc.)</span>
     </div>
-    <button class="button"><a  class ="sub-link" href="./../arts_pages/appliedarts.html"> Pure Arts</a></button>
+    <button class="button"><a  id="button" class ="sub-link" href="./../arts_pages/appliedarts.html"> Pure Arts</a><div id="tooltip-degree" class="tooltip">Let's Explore applied-arts..</div></button>
  </div>
 
  <p> Or,prepare yourself for competitive exams that can open doors to exciting career opportunities.</p>
  <div class="career-card">
-    <h2>Prepare for Competitive Exams</h2>
-    <p>Are you interested in pursuing a career in government services, administration, or other competitive fields?</p>
+    <h2  class="h2">Prepare for Competitive Exams</h2>
+    <p class="career-p">Are you interested in pursuing a career in government services, administration, or other competitive fields?</p>
    <div class="career-card-content">
-    <span> UPSC Civil Services Exam (IAS, IPS, IFS, etc.)</span>
-    <span> SSC CGL Exam (Central Government Jobs)</span>
-    <span>State Public Service Commission Exams (State Government Jobs)</span>
-    <span>Banking Exams (IBPS, SBI, RBI, etc.)</span>
+    <span class="points"> UPSC Civil Services Exam (IAS, IPS, IFS, etc.)</span>
+    <span class="points"> SSC CGL Exam (Central Government Jobs)</span>
+    <span class="points">State Public Service Commission Exams (State Government Jobs)</span>
+    <span class="points">Banking Exams (IBPS, SBI, RBI, etc.)</span>
    </div>
-   <button class="button"><a  class ="sub-link" href="./../arts_pages/exam.html"> Prepare for Exams</a></button>
-</div>
+   <button class="button" id="button"><a id="button-link" class="sub-link" href="./../arts_pages/exam.html">Prepare for Exams</a><div id="tooltip-degree" class="tooltip">Let's Explore competitive Exams..</div></button>
 
+</div>
  </div>
-    <script src="./javascript/index.js"></script>
+ 
+ <h2 class="vidheading">Top Recommended Videos...</h2>
+     <div class="main-videoblock">
+        <video  poster="" controls class="main-video" id="main-video">
+            <source src="../../art-video/career.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="videos-container">
+        <video  poster="../../images/arts-page-image/careerart.jpeg" controls class="video-option" onclick="ChangeVideo(1)" >
+            <source  type="video/mp4">
+        </video>
+
+        <video  poster="../../images/arts-page-image/10art.jpeg" controls class="video-option" onclick="ChangeVideo(2)">
+            <source type="video/mp4">
+        </video>
+   
+        <video poster="../../images/arts-page-image/after12.jpeg" controls class="video-option" onclick="ChangeVideo(3)">
+            <source  type="video/mp4">
+        </video>
+    </div>
+    <footer class="footer">
+
+        <img class="brand-img-footer" src="../../images/index-page-images/brand-logo.png" alt="brand image" />
+
+        <div class="footer-social-icons">
+
+            <a href="https://www.facebook.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/faceboook-icon.png" alt="Facebook">
+            </a>
+
+            <a href="https://www.instagram.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/instagram-icon.png" alt="Instagram">
+            </a>
+
+            <a href="https://www.youtube.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/youtube-icon.png" alt="YouTube">
+            </a>
+
+            <a href="https://x.com/?lang=en" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/twitter-icon.png" alt="Twitter">
+            </a>
+
+            <a href="https://www.linkedin.com/" class="social-icon" target="_blank">
+                <img src="../../images/index-page-images/linked-icon.png" alt="LinkedIn">
+            </a>
+
+        </div>
+
+        <div class="footer-links">
+            <a href="../../index.html">Home</a>
+            <a href="../../index.html">Streams</a>
+            <a href="../contact.html">Contact Us</a>
+            <a href="../login.html">Login</a>
+        </div>
+
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2024 Career Crossroads, Inc.</p>
+
+            <a href="index.html">
+                <img class="top-icon" src="../../images/index-page-images/top-icon.png" alt="go to top" />
+            </a>
+            <p>GO TO TOP</p>
+
+        </div>
+
+    </footer>
+
+ <script src="./../../javascript/art-main.js"></script>
+    <script src= "./../../javascript/index.js"></script>
 </body>
 </html>

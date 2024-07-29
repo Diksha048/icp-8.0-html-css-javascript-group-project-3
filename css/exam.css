@@ -2,14 +2,14 @@ body {
     @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
     margin: 0;
     padding: 0;
-    background-color: #0f0e17;
+    background-color: #def2f1;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #2b7a78;
     padding: 10px 20px;
     position: relative;
 }
@@ -17,7 +17,7 @@ body {
 .nav-logo a {
     display: flex;
     align-items: center;
-    color: #fffffe;
+    color: #def2f1;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
@@ -31,7 +31,7 @@ body {
 }
 
 .nav-logo a:hover {
-    color: #ff6347;
+    color: #17252a;
 }
 
 .nav-menu {
@@ -47,7 +47,7 @@ body {
 }
 
 .nav-item a {
-    color: #fffffe;
+    color: #feffff;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
@@ -55,8 +55,8 @@ body {
 }
 
 .nav-item a:hover {
-    color: #ff6347;
-    background-color: #0f0e17;
+    color: #17252a;
+    background-color: #def2f1;
     border-radius: 5px;
     transform: scale(1.1); 
 }
@@ -64,9 +64,9 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #2b7a78;
     min-width: 160px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px #2b7a78;
     z-index: 1;
     border-radius: 5px;
     opacity: 0;
@@ -74,7 +74,7 @@ body {
 }
 
 .dropdown-content a {
-    color: #fff;
+    color: #17252a;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -82,8 +82,8 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #0f0e17;
-    color: #ff6347; 
+    background-color: #def2f1;
+    color: #17252a; 
 }
 
 .dropdown:hover .dropdown-content {
@@ -108,7 +108,7 @@ body {
 }
 
 .dropdown-items span {
-    background-color: #fff;
+    background-color: #17252a;
     border-radius: 2px;
     display: block;
     height: 3px;
@@ -126,7 +126,7 @@ body {
         position: absolute;
         top: 50px;
         left: 0;
-        background-color: #333;
+        background-color: #2b7a78;
         padding: 0;
     }
 
@@ -140,7 +140,7 @@ body {
 
     .nav-item a {
         padding: 10px;
-        border-top: 1px solid #444;
+        border-top: 1px solid #2b7a78;
     }
 
     .dropdown-items {
@@ -150,7 +150,7 @@ body {
 header {
     padding: 20px;
     text-align: center;
-    color: #fff;
+    color: #2b7a78;
     animation: fade-in 2s; 
   }
   h1 {
@@ -161,13 +161,13 @@ header {
   h2 {
     margin: 20px;
     font-size: 1.5em;
-    color: #fff;
+    color: #2b7a78;
     animation: fade-in 2s; 
   }
   
   section {
     padding: 20px;
-    border-bottom: 1px solid#404040;
+    border-bottom: 1px solid #2b7a78;
     animation: pulse 2s;
   }
   
@@ -175,7 +175,7 @@ header {
     text-align: center;
     font-size: 1.75em;
     margin-bottom: 20px;
-    color: #fff;
+    color:  #2b7a78;
     animation: pulse 2s;
   }
   .content {
@@ -191,7 +191,7 @@ header {
   }
   
   .text ul li {
-    background: #e9ecef;
+    background: #2b7a78;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
@@ -200,11 +200,11 @@ header {
     
   .course, .review {
     flex: 1 1 20%;
-    background: #f8f9fa;
+    background: #3aafa9;
     margin: 20px;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px #2b7a78;
     text-align: center;
     align-items: start;
     animation: pulse 2s;
@@ -216,7 +216,7 @@ header {
   
   .course p, .review p {
     font-size: 0.9em;
-    color: #6c757d;
+    color: #2b7a78;
   }
   .container{
     display: flex;
@@ -227,7 +227,7 @@ header {
 }
 .card{
     width: 350px;
-    border: #171F3B solid 2px;
+    border: #2b7a78 solid 2px;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -236,7 +236,7 @@ header {
     text-align: center;
     transition: 1s ease-in;
     border-radius: 10px;
-    color: #fffffe;
+    color: #2b7a78;
     margin: 20px;
     animation: pulse 2s;
 }
@@ -248,20 +248,20 @@ header {
     animation: pulse 2s;
 }
 .card:hover{
-   border:  #2C5F88 solid 3px;
-   box-shadow: #2C5F88 0px 0px 5px;
+   border:  #2b7a78 solid 3px;
+   box-shadow: #2b7a78 0px 0px 5px;
 }
 .ias-sc{
     text-align: center;
     margin: 40px;
-    color: #fffffe;
+    color: #2b7a78;
 }
 .button {
     display: inline-block;
-    border-radius: 6px;
-    background-color: #fffffe;
+    border-radius: 10px;
+    background-color: #3aafa9;
+    color: #feffff;
     border: none;
-    color: black;
     text-align: center;
     width: 80px;
     height: 40px;
@@ -298,11 +298,11 @@ header {
   .link{
     text-decoration: none;
     text-align: center;
-    color: #0f0e17;
+    color: #feffff;
   }
 
 .row:hover{
-    border: #2C5F88 solid 3px;
+    border: #3aafa9 solid 3px;
 }
 .info-img img{
     height: 200px;
@@ -324,7 +324,7 @@ header {
     font-size: 15px
 }
 .row-info{
-    color: #fffffe;
+    color: #2b7a78;
 }
 .row{
     display: flex;
@@ -332,11 +332,11 @@ header {
     padding: 19px;
     width: 90%;
     justify-content: space-around;
-    border: #f25f4c solid 2px;
+    border: #2b7a78 solid 2px;
     border-radius: 10px;
     transition: 1s ease-in-out;
     margin-top: 30px;
-    color: #fff;
+    color: #2b7a78;
     animation: pulse 2s;
   }
 
@@ -344,9 +344,10 @@ header {
     margin: 5px;
     height: 30px;
     width: 80px;
-    background-color: #f25f4c;
+    background-color: #3aafa9;
+    color: #feffff;
     padding: 3px;
-    border-radius: 5px  ;
+    border-radius: 10px  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,10 +357,10 @@ header {
     list-style-type: none;
     text-decoration:none ;
     font-size: 15px;
-    color: #fff;
+    color: #feffff;
   }
   .btn:hover{
-    background-color:#f25f4c ;
+    background-color:#2b7a78 ;
   }
   @keyframes fade-in {
     0% {
@@ -423,29 +424,34 @@ header {
       transform: rotate(360deg);
     }
   }
+  .btn-read{
+    text-decoration: none;
+    color: #17252a;
+  }
   #search-results{
     text-align: center;
-    color: black;
+    color: #17252a;
     margin: 20px;
   }
   .search-container{
     max-width: 450px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: #def2f1;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #3aafa9;
+    animation: pulse 2s;
   }
   #search-input{
     width: 300px;
     height: 50px;
     border-radius: 5px;
+    animation: pulse 2s;
   }
 #search-btn{
-  background-color: black;
+  background-color: #3aafa9;
   border: none;
-  color: white;
+  color: #17252a;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
@@ -453,4 +459,80 @@ header {
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 10px;
+  animation: pulse 2s;
+}
+/* theme change */
+body {
+  transition: background-color 0.5s;
+}
+
+.dark-theme {
+  background-color: #17252a;
+  color: #fff;
+}
+
+.light-theme {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.theme-changer {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#theme-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.5s;
+}
+
+#theme-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Media queries for 570px or less */
+@media (max-width: 570px) {
+  .search-container {
+    max-width: 300px;
+      box-shadow: none;
+  }
+
+  #search-input {
+    width: 150px;
+    height: 40px;
+      margin-bottom: 10px;
+  }
+
+  #search-btn {
+      width: 40%;
+      padding: 10px;
+  }
+
+  .row {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .info, .info-img {
+      width: 50%;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .info h3 {
+      font-size: 20px;
+  }
+
+  .info p {
+      font-size: 14px;
+  }
+
+  .btn {
+      width: 100%;
+  }
 }

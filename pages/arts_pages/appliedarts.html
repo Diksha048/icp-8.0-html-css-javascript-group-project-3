@@ -4,74 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Applied Arts</title>
-    <link rel="stylesheet" href="./../../css/index.css">
     <link rel="stylesheet" href="./../../css/appliedarts.css">
 </head>
 <body>
+    <div class="theme-changer">
+        <img id="theme-icon" src="./../../images/arts-page-image/moon.png" alt="moon-icon">
+    </div>
     <nav class="navbar">
         <div class="nav-logo">
-            <a href="index.html">
+            <a href="./../../index.html">
                 <img src="./../../images/index-page-images/brand-logo.png" alt="brand logo">
                 Career Crossroads
             </a>
         </div>
-
-        <ul class="nav-menu">
-            <li class="nav-item"><a href="index.html">Home</a></li>
+    <ul class="nav-menu" id="navMenu">
+            <li class="nav-item"><a href="./../../index.html">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="#" class="dropbtn">Streams</a>
                 <div class="dropdown-content">
-                    <a href="science.html">Science</a>
-                    <a href="commerce.html">Commerce</a>
-                    <a href="arts.html">Arts</a>
+                    <a href="./../science_pages/science_main.html">Science</a>
+                    <a href="./../commerce.html">Commerce</a>
+                    <a href="./arts_main.html">Arts</a>
                 </div>
             </li>
-            <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-            <li class="nav-item"><a href="login.html">Login</a></li>
+            <li class="nav-item"><a href="./../contact.html">Contact Us</a></li>
+            <li class="nav-item"><a href="./../login.html">Login</a></li>
         </ul>
-
-        <div class="hamburger-menu">
+        <div class="dropdown-items" id="dropdown-items">
             <span></span>
             <span></span>
             <span></span>
         </div>
     </nav>
-    <header>
+    <header class="light-themeheader">
         <h1>Applied Arts Career Opportunity</h1>
         <br>
         <h3>The arts and sciences are avatars of human creativity.<br> — Mae Jemison</h3>
     </header>
-    
     <section id="syllabus">
         <h3>Career Paths</h3>
         <div class="content">
             <div class="text">
                 <ul>
-                    <li> <img src="../../images/arts-page-image/student.png" height="30px">Professional Courses After 12th Arts</li>
-                    <li><img src="../../images/arts-page-image/student.png" height="30px">Graduation Courses After 12th Arts</li>
-                    <li><img src="../../images/arts-page-image/student.png" height="30px">Degree Courses After 12th Arts</li>
-                    <li><img src="../../images/arts-page-image/student.png" height="30px">Teaching Courses After 12th Arts</li>
-                    <li><img src="../../images/arts-page-image/student.png" height="30px">Architecture Courses After 12th Arts</li>
-                    <li><img src="../../images/arts-page-image/student.png" height="30px">One Year Diploma Courses After 12th Arts</li>
+                    <li data-scroll-to="professional-courses"><img src="../../images/arts-page-image/student.png" height="30px">Professional Courses After 12th Arts</li>
+                    <li data-scroll-to="graduation-courses"><img src="../../images/arts-page-image/student.png" height="30px">Graduation Courses After 12th Arts</li>
+                    <li data-scroll-to="degree-courses"><img src="../../images/arts-page-image/student.png" height="30px">Degree Courses After 12th Arts</li>
+                    <li data-scroll-to="management-courses"><img src="../../images/arts-page-image/student.png" height="30px">Management Courses After 12th Arts</li>
+                    <li data-scroll-to="architecture-courses"><img src="../../images/arts-page-image/student.png" height="30px">Architecture Courses After 12th Arts</li>
                 </ul>
             </div>
         </div>
-
-        <div class="row">
-            <div class="info-img">
-                <img src="" alt="1">
-            </div>
-            <div class="info">
-                <h1>Professional Courses</h1>
-                <h3>To pursue after 12th arts</h3>
-                <p class="small-device">Professional courses are designed to equip students with specialized knowledge and skills relevant to specific industries, thereby enhancing their employability and career prospects.</p>
-                <div class="btn"><a href="https://en.wikipedia.org/wiki/ISRO#History" class="btn-read">Read more</a>
-                </div>
+      <!-- Professional Courses -->
+<div class="row" id="professional-courses">
+    <div class="info">
+        <h1  class= "h1" class="h1light">Professional Courses</h1>
+        <h3>To pursue after 12th arts</h3>
+        <br>
+        <p class="small-device">Professional courses are designed to equip students with specialized knowledge and skills relevant to specific industries, thereby enhancing their employability and career prospects.</p>
+        <h3>Top Courses</h3>
+        <div class="cardscont">
+            <div class="cards">
+                <ul>
+                   <li><img src="../../images/arts-page-image/bba-full-form.png" height="50px"><br>Bachelor of Business Administration (BBA)</li>
+                    <li><img src="../../images/arts-page-image/bhm.jpeg" height="30px"><br>Bachelor of Hotel Management (BHM)</li>
+                    <li><img src="../../images/arts-page-image/bmc.png" height="30px"><br>Bachelor of Mass Communication (BMC)</li>
+                    <li><img src="../../images/arts-page-image/bsw-.jpg" height="30px"><br>Bachelor of Social Work (BSW)</li>
+                    <li><img src="../../images/arts-page-image/bfa.jpg" height="30px"><br>Bachelor of Fine Arts (BFA)</li>
+                </ul>
             </div>
         </div>
+        <div class="btn">
+            <a id="btn-graduation-professional" href="https://huroorkee.ac.in/blog/courses-after-12th-arts/" class="btn-read">Read more</a>
+            <div id="tooltip-professional" class="tooltip">You are about to visit an external link!</div>
+        </div>
+    </div>
+</div>
 
+<!-- Graduation Courses -->
+<div class="row" id="graduation-courses">
+    <div class="info">
+        <h1>Graduation Courses</h1>
+        <h3>To pursue after 12th arts</h3>
+        <br>
+        <p class="small-device">Graduation courses after completing the 12th grade in the arts stream offer students a wide array of opportunities to delve deeper into their areas of interest and acquire specialized knowledge.</p>
+        <h3>Top Courses</h3>
+        <div class="cardscont">
+            <div class="cards">
+                <ul>
+                    <li><img src="https://www.cheggindia.com/wp-content/uploads/2023/08/ba-full-form.png" height="50px"><br>Bachelor of Arts (BA)</li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6uT1P1RaiogUxxAlcjJRc6RM_AaKJriUTJA&s" height="30px"><br>Bachelor of Commerce (B.Com)</li>
+                    <li><img src="https://blog.mitsd.edu.in/images/blog/baccher-design-blog-banner.jpg" height="30px"><br>Bachelor of Design (B.Des)</li>
+                    <li><img src="https://s3.collegedisha.com/collegedisha/courses/image/BJMC_Course.webp" height="30px"><br>Bachelor of Journalism and Mass Communication (BJMC)</li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST4qEsCI4Uc7mXcNII3hjWNRSTD_ODsIuhTA&s" height="30px"><br>Bachelor of Education (B.Ed)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn">
+            <a id="btn-graduation-graduation" href="https://huroorkee.ac.in/blog/courses-after-12th-arts/" class="btn-read">Read more</a>
+            <div id="tooltip-graduation" class="tooltip">You are about to visit an external link!</div>
+        </div>
+    </div>
+</div>
+
+<!-- Degree Courses -->
+<div class="row" id="degree-courses">
+    <div class="info">
+        <h1>Degree Courses</h1>
+        <h3>To pursue after 12th arts</h3>
+        <br>
+        <p class="small-device">Graduation courses after completing the 12th grade in the arts stream offer students a wide array of opportunities to delve deeper into their areas of interest and acquire specialized knowledge.</p>
+        <h3>Top Courses</h3>
+        <div class="cardscont">
+            <div class="cards">
+                <ul>
+                    <li><img src="https://img.studydekho.com/uploads/c/2021/12/13307-c-all-2-15.jpg" height="50px"><br>Bachelor of Laws (LLB)</li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg9ILsh7snnpgh4Fy05TkFlsNsew0A5XtAgQ&s" height="30px"><br>Bachelor of Computer Applications (BCA)</li>
+                    <li><img src="https://www.educationmitra.in/assets/images/popular-programs/blib.png" height="30px"><br>Bachelor of Library Science (B.Lib)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn">
+            <a id="btn-graduation-degree" href="https://huroorkee.ac.in/blog/courses-after-12th-arts/" class="btn-read">Read more</a>
+            <div id="tooltip-degree" class="tooltip">You are about to visit an external link!</div>
+        </div>
+    </div>
+</div>
+
+<!-- Management Courses -->
+<div class="row" id="management-courses">
+    <div class="info">
+        <h1>Management Courses</h1>
+        <h3>To pursue after 12th arts</h3>
+        <br>
+        <p class="small-device">Management courses are highly valuable for students who have completed their 12th grade in the arts stream as they provide essential skills for leadership and strategic decision-making.</p>
+        <h3>Top Courses</h3>
+        <div class="cardscont">
+            <div class="cards">
+                <ul>
+                    <li><img src="https://www.cheggindia.com/wp-content/uploads/2023/08/bba-full-form.png" height="50px"><br>Bachelor of Business Administration (BBA)</li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJ8zeUTDpIgujjy2N6ojeICrNr931b4SzAQ&s" height="30px"><br>Bachelor of Management Studies (BMS)</li>
+                    <li><img src="https://leverageedu.com/learn/wp-content/uploads/2023/02/Bachelor-of-Tourism-Management.png" height="30px"><br>Bachelor of Tourism and Travel Management</li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn">
+            <a id="btn-graduation-management" href="https://huroorkee.ac.in/blog/courses-after-12th-arts/" class="btn-read">Read more</a>
+            <div id="tooltip-management" class="tooltip">You are about to visit an external link!</div>
+        </div>
+    </div>
+</div>
+
+<!-- Architecture Courses -->
+<div class="row" id="architecture-courses">
+    <div class="info">
+        <h1>Architecture Courses</h1>
+        <h3>To pursue after 12th arts</h3>
+        <br>
+        <p class="small-device">Architecture courses are an excellent choice for students who have completed their 12th grade in the arts stream and have a passion for design, creativity, and technical skills.</p>
+        <h3>Top Courses</h3>
+        <div class="cardscont">
+            <div class="cards">
+                <ul>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZVrIq0vayvefEn03wPPM9X-ozFYxOb8yFNA&s" height="50px"><br>Bachelor of Architecture (B.Arch)</li>
+                    <li><img src="https://amityuniversity.ae/images-cache/qn8WxDW3pRaYiPGtBATDbjmhjsLYQ9NT3dCn7eDd___800w.webp?ext=webp&path=storage%2Fmedia%2Fqn8WxDW3pRaYiPGtBATDbjmhjsLYQ9NT3dCn7eDd.webp" height="30px"><br>Bachelor of Interior Design</li>
+                    <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Otw9UCynJbp8ztqlTmqLzpbEBC0hLT-1GA&s" height="30px"><br>Bachelor of Landscape Architecture</li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn">
+            <a id="btn-graduation-architecture" href="https://huroorkee.ac.in/blog/courses-after-12th-arts/" class="btn-read">Read more</a>
+            <div id="tooltip-architecture" class="tooltip">You are about to visit an external link!</div>
+        </div>
+    </div>
+</div>
 
     </section>
-    <script src="./../../javascript/index.js"></script>
+    <script src="./../../javascript/appliedarts.js"></script>
 </body>
 </html>

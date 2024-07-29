@@ -302,6 +302,10 @@ h1{
     border-radius: 180px;
     background-color:#DEF2F1;
 }
+.explore:hover{
+    background-color:#9ecfcd; 
+    transition: 0.4s;
+}
 .innerimg{
     margin: 10px;
     height: 200px;

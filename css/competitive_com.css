@@ -331,3 +331,23 @@ p{
 .section{
     color: #2B7A78;
 }
+.havesearch{
+    width: 200px;
+    height:60px;
+    margin-left: 1250px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -60px;
+  border-radius: 5px;
+  background: transparent;
+
+}
+#search-results{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

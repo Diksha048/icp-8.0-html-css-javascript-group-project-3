@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body{
+            margin: 0;
+            padding: 0%;
+            background-color:  #17252a;
+            ;
+        }
+        .container{
+            height: 500px;
+            width: 600px;
+            background-color: #2B7A78;
+            margin: 0 470px;
+            margin-top: 100px;
+            border-radius: 20px;
+            box-shadow: white 20px 20px ;
+            position: relative;
+           
+        }
+        .question{
+            color: beige;
+            margin-left: 20px;
+            margin-top: 20px;
+            position: absolute;
+            font-family: "Poppins", sans-serif;
+         }
+         .btn{
+          background-color: #fffffe;
+          color: #17252a ;
+          font-size: 20x;
+          text-align: left;
+          margin: 10px 0;
+          margin-left: 175px;
+          padding: 10px;
+          border: 1px solid beige;
+          border-radius: 5px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: all 0.5s;
+          width: 200px;
+         }
+         .btn:hover{
+             background-color: beige;
+             color: black;
+         }
+         h1{
+           color: beige;
+           font-family: "Poppins", sans-serif;
+           margin-left: 20px;
+         }
+         hr{
+            color: beige;
+            margin: 10px;
+         }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+   <h1>Recommendation Quiz</h1>
+   <hr>
+    <div id="quiz" >
+        <div class="question" id="question1"></div>
+        <div class="question" id="question2"></div>
+        <div class="question" id="question3"></div>
+        <div class="question" id="question4"></div>
+        <div class="question" id="question5"></div>
+    </div>
+    <div id="result">
+    </div>
+  
+
+</div>
+
+    <script src="../javascript/recommendation.js"></script>
+
+</body>
+</html>

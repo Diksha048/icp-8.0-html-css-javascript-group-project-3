@@ -37,18 +37,3 @@ themeIcon.addEventListener('click', () => {
     }
 });
 
-// Get the button and tooltip elements by their IDs
-const button = document.getElementById('button');
-const tooltip = document.getElementById('tooltip-degree');
-
-// Add event listener for mouseover
-button.addEventListener('mouseover', function() {
-    // Show the tooltip
-    tooltip.style.display = 'block';
-});
-
-// Add event listener for mouseout
-button.addEventListener('mouseout', function() {
-    // Hide the tooltip
-    tooltip.style.display = 'none';
-});
